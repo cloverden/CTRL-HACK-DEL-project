@@ -1,11 +1,18 @@
 const express = require('express')
+const ejs = require('ejs');
 
-const app = express()
+const app = express();
+
+
+
+app.set('view engine', 'ejs');
+
 
 // routing path
 app.get('/', (req, res) => {
-    res.send('Hello World!');
+    res.sendFile(__dirname + '/example.html')
 });
+
 
 // Start the server
 app.listen(3000, () => {
