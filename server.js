@@ -10,7 +10,7 @@ app.set('view engine', 'ejs');
 
 // routing path
 app.get('/', (req, res) => {
-    res.sendFile(__dirname + '/example.html')
+    res.sendFile(__dirname + '/waste.html')
 });
 
 
