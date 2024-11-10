@@ -16,4 +16,8 @@ app.get('/', (req, res) => {
     res.sendFile(__dirname + '/landingpage.html')
 });
 
+app.get('/planning', (req, res) => {
+    res.sendFile(__dirname + '/planning.html')
+});
+
 module.exports = app;
