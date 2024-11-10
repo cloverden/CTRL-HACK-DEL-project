@@ -1,0 +1,28 @@
+.doto-headers {
+    font-family: "Doto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-variation-settings:
+      "ROND" 0;
+  }
+
+.roboto-mono-body {
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  } 
+
+/* #p{
+  font-family: roboto-mono-body, monospace; 
+} */
+
+h1{ 
+    font-family: doto, sans-serif; 
+    font-optical-sizing: auto;
+    font-weight: 900; 
+    font-style: normal; 
+    font-variation-settings: 
+    "ROND" 0; 
+}
