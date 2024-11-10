@@ -41,6 +41,11 @@
   font-family: roboto-mono-body, monospace; 
 } */
 
+svg {
+  display: flex; 
+  float: left;
+}
+
 h1{ 
     font-family: doto, sans-serif; 
     font-optical-sizing: auto;
