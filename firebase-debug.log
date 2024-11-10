@@ -1,0 +1,21 @@
+[debug] [2024-11-10T01:00:25.710Z] ----------------------------------------------------------------------
+[debug] [2024-11-10T01:00:25.714Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-11-10T01:00:25.714Z] CLI Version:   13.24.2
+[debug] [2024-11-10T01:00:25.714Z] Platform:      win32
+[debug] [2024-11-10T01:00:25.714Z] Node Version:  v20.13.1
+[debug] [2024-11-10T01:00:25.714Z] Time:          Sat Nov 09 2024 20:00:25 GMT-0500 (Eastern Standard Time)
+[debug] [2024-11-10T01:00:25.715Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-11-10T01:00:25.724Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-11-10T01:00:25.724Z] > authorizing via signed-in user (miguel17@my.yorku.ca)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\migue\source\repos\CtrlHackDel2024
+
