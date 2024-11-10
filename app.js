@@ -25,4 +25,14 @@ app.get('/cooking', (req, res) => {
 
 });
 
+app.get('/shopping', (req, res) => {
+    res.sendFile(__dirname + '/shopping.html')
+
+});
+
+app.get('/waste', (req, res) => {
+    res.sendFile(__dirname + '/waste.html')
+
+});
+
 module.exports = app;
