@@ -35,6 +35,11 @@ app.get('/shopping', (req, res) => {
 
 });
 
+app.get('/recipes', (req, res) => {
+    res.sendFile(__dirname + '/recipes.html')
+
+});
+
 app.get('/waste', (req, res) => {
     res.sendFile(__dirname + '/waste.html')
 
