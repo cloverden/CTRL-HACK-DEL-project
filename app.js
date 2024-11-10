@@ -20,4 +20,9 @@ app.get('/planning', (req, res) => {
     res.sendFile(__dirname + '/planning.html')
 });
 
+app.get('/shopping', (req,res) => {
+    res.sendFile(__dirname + '/shopping.html')
+
+}); 
+
 module.exports = app;
