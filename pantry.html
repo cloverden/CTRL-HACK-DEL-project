@@ -1,40 +1,48 @@
+<!DOCTYPE html>
+<html lang="En">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Digital Fridge</title>
+    <link rel="stylesheet" href="global.css" type="text/css" />
+    <link rel="stylesheet" href="global.css" type="text/css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Doto:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Doto:wght@312&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1>Pantry</h1>
+    <h2>Food In Storage</h2>
+    <ul class="listing" id="pantry"></ul>
+    <a href="/cooking"><p>Keep Track of Your Grocery List -></p></a>
 
-<!DOCTYPE html> 
-<html lang="En"> 
-    <head> 
-        <meta charset="UTF-8">
-        <title> Digital Fridge </title>
-        <link rel="stylesheet" href="global.css" type="text/css"> 
-        <link rel="stylesheet" href="global.css" type="text/css"> 
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Doto:wght@100..900&display=swap" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Doto:wght@312&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <h1> Pantry </h1>
-        <h2> Food In Storage </h2> 
-        <ul class="listing"> 
-            <li> Placeholder </li>  
-            <li> Placeholder </li>
-            <li> Placeholder </li>
-            <li> Placeholder </li>
-        </ul>
-        <a href="/cooking"><p>Keep Track of Your Grocery List -> </p></a>
+    <script>
+      const ul = document.getElementById("pantry");
+      const pantry = JSON.parse(localStorage.getItem("pantry"));
+      //   console.log(pantry);
+      const pantryKeys = Object.keys(pantry);
+      console.log(pantryKeys);
 
-    </body>
-
-
-
-
-
-
-
-
-
-
-
-
-
+      for (ingredient in pantryKeys) {
+        console.log(
+          `${pantry[pantryKeys[ingredient]].quantity} ${
+            pantry[pantryKeys[ingredient]].metric
+          } | ${pantryKeys[ingredient]}`
+        );
+        // console.log(`${pantry[pantryKeys[ingredient]].quantity}`);
+        const li = document.createElement("li");
+        li.textContent = `${pantry[pantryKeys[ingredient]].quantity} ${
+          pantry[pantryKeys[ingredient]].metric
+        } | ${pantryKeys[ingredient]}`;
+        ul.appendChild(li);
+      }
+    </script>
+  </body>
 </html>
