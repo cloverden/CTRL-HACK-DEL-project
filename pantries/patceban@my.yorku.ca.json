@@ -1,4 +1,4 @@
-{{
+{
   "sweet italian sausage": { "quantity": 16, "metric": "oz" },
   "olive oil": { "quantity": 2, "metric": "Tbsp" },
   "tomatoes": { "quantity": 4, "metric": "units" },
@@ -12,4 +12,4 @@
   "pesto": { "quantity": 2, "metric": "Tbsp" },
   "potatoes": { "quantity": 8, "metric": "units" },
   "bacon": { "quantity": 8, "metric": "oz" }
-}}
+}
