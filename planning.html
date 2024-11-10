@@ -12,16 +12,28 @@
     </head> 
     <body> 
         <h1> Planning </h1>
-        <form>
-            <input type="checkbox" id="beef" name="beef" value="beef">
-            <label for="checbox"> Meat </label><br>
-            <input type="checkbox" id="chicken" name="chicken" value="chicken">
-            <label for="checbox"> Vegetables </label><br>
-            <input type="checkbox" id="milk" name="milk" value="milk">
-            <label for="checkbox"> Dairy </label><br>
-            <input type="checkbox", id="fish" name="fish" value="fish"> 
+        <h2> Food Preferences </h2>
+        <div class="checkbox_grouping"> 
+            <form>
+             <input type="checkbox" id="beef" name="beef" value="beef">
+             <label for="checbox"> Meat </label><br>
+             <input type="checkbox" id="chicken" name="chicken" value="chicken">
+             <label for="checbox"> Vegetables </label><br>
+             <input type="checkbox" id="milk" name="milk" value="milk">
+             <label for="checkbox"> Dairy </label><br>
+             <input type="checkbox", id="fish" name="fish" value="fish"> 
             <label for="checbox"> Fish </label><br>
-          </form>
+        </form>
+        </div>
+        <h2> Meal Prep Formulas </h2>
+        <form> 
+            <input type="radio", id="Diet" name="Diet" value="Diet">
+            <label for="radio"> Basic: Protein + Grain + Vegetable </label><br>
+            <input type="radio", id="Diet" name="Diet" value="Diet">
+            <label for="radio"> Low Carb: Protein + Vegetable + Vegetable </label><br>
+            <input type="radio", id="Diet" name="Diet" value="Diet">
+            <label for="radio"> Vegetarian: Legume + Grain + Vegetable </label>
+        </form>
           <h2> Length </h2>
           <form>
             <input type="radio", id="Time" name="Time" value="Time">
@@ -29,7 +41,7 @@
             <input type="radio", id="Time" name="Time" value="Time">
             <label for="radio"> 1 Month </label>
           </form>
-          <a href="/shopping"><p>Create list</p></a>
+          <a href="/cooking"><p>Create list</p></a>
     </body>
 
 </html>

@@ -20,8 +20,8 @@ app.get('/planning', (req, res) => {
     res.sendFile(__dirname + '/planning.html')
 });
 
-app.get('/shopping', (req,res) => {
-    res.sendFile(__dirname + '/shopping.html')
+app.get('/cooking', (req,res) => {
+    res.sendFile(__dirname + '/cooking.html')
 
 }); 
 
