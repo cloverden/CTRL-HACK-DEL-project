@@ -11,19 +11,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Doto:wght@312&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
     </head> 
     <body> 
-        <h1> Planning </h1>
-        <h2> Food Preferences </h2>
-        <div class="checkbox_grouping"> 
-            <form>
-             <input type="checkbox" id="beef" name="beef" value="beef">
-             <label for="checbox"> Meat </label><br>
-             <input type="checkbox" id="chicken" name="chicken" value="chicken">
-             <label for="checbox"> Vegetables </label><br>
-             <input type="checkbox" id="milk" name="milk" value="milk">
-             <label for="checkbox"> Dairy </label><br>
-             <input type="checkbox", id="fish" name="fish" value="fish"> 
-            <label for="checbox"> Fish </label><br>
-        </form>
+        <h1> Planning For One Serving</h1>
         </div>
         <h2> Meal Prep Formulas </h2>
         <form> 
@@ -41,7 +29,29 @@
             <input type="radio", id="Time" name="Time" value="Time">
             <label for="radio"> 1 Month </label>
           </form>
-          <a href="/cooking"><p>Create list</p></a>
-    </body>
 
+          <h2> Food Preferences (Coming Soon) </h2>
+          <div> 
+              <form>
+               <input type="checkbox" id="beef" name="beef" value="beef">
+               <label for="checbox"> Meat </label><br>
+               <input type="checkbox" id="chicken" name="chicken" value="chicken">
+               <label for="checbox"> Vegetables </label><br>
+               <input type="checkbox" id="milk" name="milk" value="milk">
+               <label for="checkbox"> Dairy </label><br>
+               <input type="checkbox", id="fish" name="fish" value="fish">
+               <label for="checbox"> Fish </label><br>
+              </form>
+
+          <script> 
+            document.getElementById("beef").disabled = true; 
+            document.getElementById("chicken").disabled = true; 
+            document.getElementById("milk").disabled = true; 
+            document.getElementById("fish").disabled = true; 
+          </script>
+          
+          <a href="/cooking"><p>Create list -> </p></a>
+      
+    </body>
+  
 </html>
