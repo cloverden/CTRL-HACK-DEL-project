@@ -1,8 +1,12 @@
 require("dotenv").config();
 // require("./config/database").connect();
 const express = require("express");
+const path = require("path");
 
 const app = express();
+
+// Set up static file serving
+app.use(express.static(path.join(__dirname, 'public')))
 
 app.use(express.json());
 
@@ -14,6 +18,11 @@ app.get('/', (req, res) => {
 
 app.get('/planning', (req, res) => {
     res.sendFile(__dirname + '/planning.html')
-})
+});
+
+app.get('/cooking', (req, res) => {
+    res.sendFile(__dirname + '/cooking.html')
+
+});
 
 module.exports = app;
