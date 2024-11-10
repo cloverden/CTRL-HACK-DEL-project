@@ -16,6 +16,10 @@
 
   }
 
+  input[type="checkbox"]:checked + label.strike {
+    text-decoration: line-through;
+}
+
   ul{
     padding-right: 150px;
     list-style-type: none;  
