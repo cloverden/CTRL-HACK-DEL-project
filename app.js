@@ -25,8 +25,18 @@ app.get('/cooking', (req, res) => {
 
 });
 
+app.get('/pantry', (req, res) => {
+    res.sendFile(__dirname + '/pantry.html')
+
+});
+
 app.get('/shopping', (req, res) => {
     res.sendFile(__dirname + '/shopping.html')
+
+});
+
+app.get('/recipes', (req, res) => {
+    res.sendFile(__dirname + '/recipes.html')
 
 });
 
