@@ -13,7 +13,7 @@ function calculateIngredients(recipes) {
                 shoppingList[ingredient].quantity = shoppingList[ingredient]['quantity'] + recipeObject['ingredients'][ingredient]['quantity']
             } else {
                 shoppingList[ingredient] = { "quantity": "", "metric": "" }
-                shoppingList[ingredient]['quantity'] = recipeObject['ingredients'][ingredient]['quantity']
+                shoppingList[ingredient]['quantity'] = recipeObject['ingredients'][ingredient]['quantity'] * 2.5
                 shoppingList[ingredient]['metric'] = recipeObject['ingredients'][ingredient]['metric']
             }
         })
@@ -23,4 +23,4 @@ function calculateIngredients(recipes) {
     console.log(shoppingList)
 }
 
-calculateIngredients(['exampleRecipe2', 'onePotSausageAndSunDriedTomatoPasta', 'exampleRecipe3', 'exampleRecipe4'])
+// calculateIngredients(['exampleRecipe2', 'onePotSausageAndSunDriedTomatoPasta', 'exampleRecipe3', 'exampleRecipe4'])
