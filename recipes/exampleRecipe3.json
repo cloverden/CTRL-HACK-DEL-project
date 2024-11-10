@@ -1,0 +1,7 @@
+{
+  "ingredients": {
+    "mushrooms": { "quantity": 8, "metric": "oz" },
+    "pesto": { "quantity": 1, "metric": "Tbsp" },
+    "potatoes": { "quantity": 4, "metric": "units" }
+  }
+}

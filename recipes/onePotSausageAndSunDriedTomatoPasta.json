@@ -1,6 +1,12 @@
 {
   "ingredients": {
-    "sweet italian sausage": { "quntity": 8, "metric": "oz" },
-    "olive oil": { "quantity": 1, "metric": "Tbsp" }
+    "sweet italian sausage": { "quantity": 8, "metric": "oz" },
+    "olive oil": { "quantity": 1, "metric": "Tbsp" },
+    "garlic cloves": { "quantity": 2, "metric": "unit" },
+    "broccoli": { "quantity": 0.5, "metric": "lb" },
+    "chicken broth": { "quantity": 2, "metric": "cups" },
+    "sun dried tomatoes": { "quantity": 0.3, "metric": "cups" },
+    "pasta": { "quantity": 8, "metric": "oz" },
+    "parmesian": { "quantity": 0.25, "metric": "cups" }
   }
 }
