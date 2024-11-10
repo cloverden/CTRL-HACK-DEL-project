@@ -10,7 +10,12 @@ function onButtonClick() {
         }); 
     } else {
         console.error("No button"); 
-    }
+    }; 
 } 
 
 window.onload = onButtonClick;
+
+/*const url = new URL( 
+    "http://localhost:3000/cooking" 
+); 
+url.toString()*/ 
