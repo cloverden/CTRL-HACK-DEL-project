@@ -1,1 +1,15 @@
-{}
+{{
+  "sweet italian sausage": { "quantity": 16, "metric": "oz" },
+  "olive oil": { "quantity": 2, "metric": "Tbsp" },
+  "tomatoes": { "quantity": 4, "metric": "units" },
+  "garlic cloves": { "quantity": 2, "metric": "unit" },
+  "broccoli": { "quantity": 0.5, "metric": "lb" },
+  "chicken broth": { "quantity": 2, "metric": "cups" },
+  "sun dried tomatoes": { "quantity": 0.3, "metric": "cups" },
+  "pasta": { "quantity": 8, "metric": "oz" },
+  "parmesian": { "quantity": 0.25, "metric": "cups" },
+  "mushrooms": { "quantity": 8, "metric": "oz" },
+  "pesto": { "quantity": 2, "metric": "Tbsp" },
+  "potatoes": { "quantity": 8, "metric": "units" },
+  "bacon": { "quantity": 8, "metric": "oz" }
+}}
